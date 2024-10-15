@@ -5,7 +5,6 @@ from embeddings.models import get_embeddings
 
 columns_to_concatenate = ['txt', 'addr', 'addr2', 'city', 'zip', 'nation']
 
-
 def profiling_report(data, data_name):
     # Generate a profile report
     records_profile = ProfileReport(data, title=f"{data_name} - Pandas Profiling Report", explorative=True)
