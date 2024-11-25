@@ -3,7 +3,7 @@ import re
 from ydata_profiling import ProfileReport
 from embeddings.models import get_embeddings
 
-columns_to_concatenate = ['txt', 'addr', 'addr2', 'city', 'zip', 'nation']
+columns_to_concatenate = ["txt", "addr", "addr2", "city", "zip", "nation"]
 
 def profiling_report(data, data_name):
     # Generate a profile report
