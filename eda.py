@@ -16,7 +16,6 @@ def profiling_report(data, data_name):
     # records_profile.to_notebook_iframe()
 
 
-
 def clean_text(text):
     # Replace "::" with ","
     text = text.replace('::', ',')
